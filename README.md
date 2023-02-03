@@ -19,4 +19,4 @@ In summary, users are able to do the following:
 - Search for a song or artist with the help of the search bar
 
 ## Credits 
-Created by Sharmaine Bajala and [@Nicolas Perdomo](https://github.com/nicolasperdomol). For this project, I worked on the server and on the Album component.
+Created by Sharmaine Bajala and [@Nicolas Perdomo](https://github.com/nicolasperdomol). For this project, I worked on the server and on the [Album component](https://github.com/sbajala/MusicPlaylist_SB_NP/blob/main/MusicPlaylist_SB_NP/client/w13-client/src/components/Albums.js).
