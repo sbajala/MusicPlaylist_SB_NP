@@ -1,0 +1,25 @@
+.img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.outerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    border: 2px solid;
+    border-radius: 12px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rounded {
+    border-radius: 5px;
+    color: white;
+}

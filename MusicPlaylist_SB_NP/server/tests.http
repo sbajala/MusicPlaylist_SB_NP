@@ -1,0 +1,325 @@
+### The GET /playlist
+GET http://localhost:8000/playlists HTTP/1.1
+
+### The GET /playlist/:id
+GET http://localhost:8000/playlists/24 HTTP/1.1
+
+### The POST /playlist/save
+POST http://localhost:8000/playlists/save HTTP/1.1
+Content-Type: application/json
+
+[
+  {
+    "name": "test5"
+  }
+]
+
+### The POST /playlist
+POST http://localhost:8000/playlists HTTP/1.1
+Content-Type: application/json
+
+[
+  {
+    "playlist_id": 24,
+    "id": 789,
+    "main_release": 1813006,
+    "most_recent_release": 24387593,
+    "resource_url": "https://api.discogs.com/masters/13814",
+    "uri": "https://www.discogs.com/master/13814-Nirvana-Nevermind",
+    "versions_url": "https://api.discogs.com/masters/13814/versions",
+    "main_release_url": "https://api.discogs.com/releases/1813006",
+    "most_recent_release_url": "https://api.discogs.com/releases/24387593",
+    "num_for_sale": 3507,
+    "lowest_price": 0.19,
+    "images": [
+      {
+        "type": "primary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 605
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 618
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 595
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 592
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 586
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 592
+      },
+      {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 159
+      }
+    ],
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Grunge"
+    ],
+    "year": 1991,
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Smells Like Teen Spirit",
+        "duration": "5:00"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "In Bloom",
+        "duration": "4:13"
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Come As You Are",
+        "duration": "3:38"
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "Breed",
+        "duration": "3:03"
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "Lithium",
+        "duration": "4:16"
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "title": "Polly",
+        "duration": "2:56"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Territorial Pissings",
+        "duration": "2:22"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Drain You",
+        "duration": "3:43"
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Lounge Act",
+        "duration": "2:35"
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Stay Away",
+        "duration": "3:30"
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "On A Plain",
+        "duration": "3:12"
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "title": "Something In The Way",
+        "extraartists": [
+          {
+            "name": "Kirk Canning",
+            "anv": "",
+            "join": "",
+            "role": "Cello",
+            "tracks": "",
+            "id": 261726,
+            "resource_url": "https://api.discogs.com/artists/261726"
+          }
+        ],
+        "duration": "3:43"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Nirvana",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 125246,
+        "resource_url": "https://api.discogs.com/artists/125246"
+      }
+    ],
+    "title": "Nevermind",
+    "data_quality": "Correct",
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=L1lTdnFQZw4",
+        "title": "Выпуск №66. Nirvana ‎– Nevermind(Vinyl, LP, Album, Reissue, 180g)",
+        "description": "#Nirvana #Vinyl #LP\nUnboxing личной коллекции.\nПри поддержке интернет-магазина Музыкальный прилавок\nhttps://musicalcounter.ru/",
+        "duration": 177,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=E9MhX2TG06M",
+        "title": "[Full Album] N̲irva̲na - N̲eve̲rmi̲nd",
+        "description": "[Full Album] N̲irva̲na - N̲eve̲rmi̲nd\n\nTracklist\n[00:00] 01. \n[05:02] 02. \n[09:18] 03. \n[12:57] 04. \n[16:02] 05. \n[20:19] 06. \n[23:13] 07. \n[25:37] 08. \n[29:21] 09. \n[31:58] 10. \n[35:30] 11. \n[38:45] 12. \n[42:37] 13.",
+        "duration": 0,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=hTWKbfoikeg",
+        "title": "Nirvana - Smells Like Teen Spirit (Official Music Video)",
+        "description": "Official Music Video for Smells Like Teen Spirit performed by Nirvana.\n\nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\nFind Nirvana in any corner of the world: https://nirvana.lnk.to/Nevermind30thMapID \n\nComm",
+        "duration": 279,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=PbgKEjNBHqM",
+        "title": "Nirvana - In Bloom (Official Music Video)",
+        "description": "Official Music Video for In Bloom performed by Nirvana.\n\nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\nFind Nirvana in any corner of the world: https://nirvana.lnk.to/Nevermind30thMapID \n\nCommemorate 30 year",
+        "duration": 298,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=vabnZ9-ex7o",
+        "title": "Nirvana - Come As You Are (Official Music Video)",
+        "description": "REMASTERED IN HD!!\nOfficial Music Video for Come As You Are performed by Nirvana.\n \n‘Nevermind (30th Anniversary Edition)’ is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 release, ‘Ne",
+        "duration": 225,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=J6EDW5WFb2M",
+        "title": "Nirvana - Breed (Audio)",
+        "description": "Official Audio for “Breed” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 release, Ne",
+        "duration": 184,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=pkcJEvMcnEg",
+        "title": "Nirvana - Lithium (Official Music Video)",
+        "description": "REMASTERED IN HD!!\nOfficial Music Video for Lithium performed by Nirvana.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 release, Nevermind is ",
+        "duration": 256,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=DrlaVYKWeLU",
+        "title": "Nirvana - Polly (Audio)",
+        "description": "Official Audio for “Polly” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 release, Ne",
+        "duration": 175,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=9yNPgx0swCM",
+        "title": "Nirvana - Territorial Pissings (Audio)",
+        "description": "Official Audio for “Territorial Pissings” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1",
+        "duration": 144,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=AJUpHxlJUNQ",
+        "title": "Nirvana - Drain You (Audio)",
+        "description": "Official Audio for “Drain You” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 release",
+        "duration": 224,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=dZqpol8Yrq8",
+        "title": "Nirvana - Lounge Act (Audio)",
+        "description": "Official Audio for “Lounge Act” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 releas",
+        "duration": 157,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=vnHm-u4IYuo",
+        "title": "Nirvana - Stay Away (Audio)",
+        "description": "Official Audio for “Stay Away” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 release",
+        "duration": 212,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=c023U4oQGr4",
+        "title": "Nirvana - On A Plain (Audio)",
+        "description": "Official Audio for “On A Plain” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991 releas",
+        "duration": 195,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=4VxdufqB9zg",
+        "title": "Nirvana - Something In The Way (Audio)",
+        "description": "Official Audio for “Something In The Way” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1",
+        "duration": 231,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=uj1PagCfejs",
+        "title": "Nirvana - Endless, Nameless (Audio)",
+        "description": "Official Audio for “Endless, Nameless” by Nirvana from the ‘Nevermind’ 30th anniversary release.\n \nNevermind (30th Anniversary Edition) is available now: https://Nirvana.lnk.to/Nevermind30thID\n \nCommemorating the 30th anniversary of Nirvana’s seminal 1991",
+        "duration": 404,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=plBMcpRRrVw",
+        "title": "Even In His Youth (B-Side)",
+        "description": "Provided to YouTube by Universal Music Group\n\nEven In His Youth (B-Side) · Nirvana\n\nNevermind\n\n℗ 1991 Geffen Records\n\nReleased on: 2011-01-01\n\nProducer: Craig Montgomery\nStudio  Personnel, Mixer: Andy Wallace\nAssociated  Performer, Vocals, Guitar: Kurt Co",
+        "duration": 183,
+        "embed": true
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=y7TPnH5emFg",
+        "title": "Nirvana - Aneurysm",
+        "description": "Aneurysm performed by Nirvana\n\n\n\nHere are some facts about Aneurysm from Wikipedia :\n\nAneurysm is a song written by Nirvana. The song is notable in that it was never released as a single during the group's existence, and yet is one of the group's most",
+        "duration": 276,
+        "embed": true
+      }
+    ]
+  }
+]
+
+### The DELETE /playlist/:playlist
+DELETE http://localhost:8000/playlists/20 HTTP/1.1
+
+### The DELETE /playlist/:playlist/:album
+DELETE http://localhost:8000/playlists/24/789 HTTP/1.1

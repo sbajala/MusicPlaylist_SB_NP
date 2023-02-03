@@ -1,0 +1,67 @@
+.playlistForm{
+    background-color: #0f0f0f;
+}
+
+.albumCard{
+    border:none;
+    background-color:transparent;
+    color:white;
+    margin: 5% 0 5% 0;
+}
+
+.albumCardImage{
+    max-width:171px;
+    max-height:171px;
+}
+
+.addAlbumButton{
+    border-radius:100%;
+    width:40px;
+    height:40px;
+    position:absolute;
+}
+
+.resultTitle{
+    margin-top:10%;
+}
+
+#singleAlbumContainer{
+    margin-top:0.5%;
+}
+
+.singleAlbumParentContainer{
+    margin-bottom:9%;
+}
+
+.singleAlbumTitle{
+    padding:0;
+}
+
+.messages{
+    margin-top:3%;
+}
+
+#listenTo{
+    padding: 10%;
+}
+    
+#exploring{
+    margin-top:2%;
+}
+    
+#searchBar{
+    margin-top:2%;
+}
+
+#filtersRow{
+    margin:3% 0% 3% 0%;
+}
+
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: inline;
+}
