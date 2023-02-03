@@ -1,6 +1,6 @@
 
 # W13 Final Project
-Final project for 420-W13-SU Software Structure-WEB2109A-A.Quessy, Institut Superieur Informatique, 2022 September 15.
+Final project for Software Structure, 2022 September 15.
 ## Authors
 
 - [@Sharmaine Bajala](https://github.com/sbajala)
