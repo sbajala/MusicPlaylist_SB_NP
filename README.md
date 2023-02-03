@@ -1,6 +1,6 @@
 
 # Music Playlist
-Application that allows uses to create new playlists and add/remove songs from their playlists.
+JS application that allows uses to create new playlists and add/remove songs from their playlists.
 
 ## Programming language and technologies used
 - JavaScript
